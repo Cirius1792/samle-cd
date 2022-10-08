@@ -33,4 +33,4 @@ After configuring pre-commit we can manually trigger all the hooks to test our c
 ```
 pre-commit run --all-files
 ```
-From now on, at every commit attempt, our hook will trigger a maven build to catch any issue before they get into the trunk and preventing our pipeline to fail
+From now on, at every commit attempt, our hook will trigger a maven build to catch any issue before they get into the trunk and prevent our pipeline to fail
