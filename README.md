@@ -1,5 +1,5 @@
 # Pre-Commit Example for Maven Project 
-One of the most common causes of a pipeline failure is a Unit Test failure during the build stage. Noting strange, it happens, but it can be quite annoying for other colleagues if they just checked out the code while the build is broken.
+One of the most common causes of a pipeline failure is a Unit Test failure during the build stage. Nothing strange, it happens, but it can be quite annoying for other colleagues if they just checked out the code while the build is broken.
 
 It is always a good practice to be sure that the code builds and passes the Unit Tests before check-in, but hurry, tiredness or just forgetfulness can happen.
 
@@ -21,7 +21,8 @@ create a sample configuration file
 pre-commit sample-config
 ```
 Configure the maven hook:
-```-   repo: https://github.com/ejba/pre-commit-maven
+```
+-   repo: https://github.com/ejba/pre-commit-maven
     rev: v0.3.3
     hooks:
     -   id: maven
